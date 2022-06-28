@@ -107,7 +107,7 @@
             this.helpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1467, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1370, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -197,8 +197,9 @@
             // backScrollToolStripMenuItem
             // 
             this.backScrollToolStripMenuItem.Name = "backScrollToolStripMenuItem";
-            this.backScrollToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.backScrollToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.backScrollToolStripMenuItem.Text = "Back Scroll";
+            this.backScrollToolStripMenuItem.Click += new System.EventHandler(this.backScrollToolStripMenuItem_Click);
             // 
             // captureToolStripMenuItem
             // 
@@ -256,32 +257,37 @@
             // conversationToolStripMenuItem
             // 
             this.conversationToolStripMenuItem.Name = "conversationToolStripMenuItem";
-            this.conversationToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
+            this.conversationToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.conversationToolStripMenuItem.Text = "Conversation";
+            this.conversationToolStripMenuItem.Click += new System.EventHandler(this.conversationToolStripMenuItem_Click);
             // 
             // onlinePlayersToolStripMenuItem
             // 
             this.onlinePlayersToolStripMenuItem.Name = "onlinePlayersToolStripMenuItem";
-            this.onlinePlayersToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
+            this.onlinePlayersToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.onlinePlayersToolStripMenuItem.Text = "Online Players";
+            this.onlinePlayersToolStripMenuItem.Click += new System.EventHandler(this.onlinePlayersToolStripMenuItem_Click);
             // 
             // playerStatsToolStripMenuItem
             // 
             this.playerStatsToolStripMenuItem.Name = "playerStatsToolStripMenuItem";
-            this.playerStatsToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
+            this.playerStatsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.playerStatsToolStripMenuItem.Text = "Player Stats";
+            this.playerStatsToolStripMenuItem.Click += new System.EventHandler(this.playerStatsToolStripMenuItem_Click);
             // 
             // sessionStatsToolStripMenuItem
             // 
             this.sessionStatsToolStripMenuItem.Name = "sessionStatsToolStripMenuItem";
-            this.sessionStatsToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
+            this.sessionStatsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.sessionStatsToolStripMenuItem.Text = "Session Stats";
+            this.sessionStatsToolStripMenuItem.Click += new System.EventHandler(this.sessionStatsToolStripMenuItem_Click);
             // 
             // timeAnalysisToolStripMenuItem
             // 
             this.timeAnalysisToolStripMenuItem.Name = "timeAnalysisToolStripMenuItem";
-            this.timeAnalysisToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
+            this.timeAnalysisToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.timeAnalysisToolStripMenuItem.Text = "Time Analysis";
+            this.timeAnalysisToolStripMenuItem.Click += new System.EventHandler(this.timeAnalysisToolStripMenuItem_Click);
             // 
             // expRateGraphToolStripMenuItem
             // 
@@ -292,14 +298,16 @@
             // partyStatsToolStripMenuItem
             // 
             this.partyStatsToolStripMenuItem.Name = "partyStatsToolStripMenuItem";
-            this.partyStatsToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
+            this.partyStatsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.partyStatsToolStripMenuItem.Text = "Party Stats";
+            this.partyStatsToolStripMenuItem.Click += new System.EventHandler(this.partyStatsToolStripMenuItem_Click);
             // 
             // qToolsToolStripMenuItem
             // 
             this.qToolsToolStripMenuItem.Name = "qToolsToolStripMenuItem";
-            this.qToolsToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
+            this.qToolsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.qToolsToolStripMenuItem.Text = "Q-Tools";
+            this.qToolsToolStripMenuItem.Click += new System.EventHandler(this.qToolsToolStripMenuItem_Click);
             // 
             // actionToolStripMenuItem
             // 
@@ -421,12 +429,14 @@
             this.expCalculatorToolStripMenuItem.Name = "expCalculatorToolStripMenuItem";
             this.expCalculatorToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.expCalculatorToolStripMenuItem.Text = "exp calculator";
+            this.expCalculatorToolStripMenuItem.Click += new System.EventHandler(this.expCalculatorToolStripMenuItem_Click);
             // 
             // spellBookToolStripMenuItem
             // 
             this.spellBookToolStripMenuItem.Name = "spellBookToolStripMenuItem";
             this.spellBookToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.spellBookToolStripMenuItem.Text = "Spell Book";
+            this.spellBookToolStripMenuItem.Click += new System.EventHandler(this.spellBookToolStripMenuItem_Click);
             // 
             // helpToolStripMenuItem
             // 
@@ -477,7 +487,7 @@
             this.toolStripButton10});
             this.toolStrip1.Location = new System.Drawing.Point(0, 24);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(1467, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(1370, 25);
             this.toolStrip1.TabIndex = 2;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -576,12 +586,13 @@
             this.toolStripButton10.Name = "toolStripButton10";
             this.toolStripButton10.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton10.Text = "showconversation";
+            this.toolStripButton10.Click += new System.EventHandler(this.toolStripButton10_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1467, 824);
+            this.ClientSize = new System.Drawing.Size(1370, 749);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.menuStrip1);
