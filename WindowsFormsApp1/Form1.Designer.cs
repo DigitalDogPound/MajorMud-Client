@@ -52,29 +52,20 @@
             this.conversationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.onlinePlayersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.playerStatsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sessionStatsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.timeAnalysisToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.expRateGraphToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.partyStatsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.qToolsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.actionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gotoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.loopToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.roamToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.backTrackToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.stopToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.getAllToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dropAllToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.equipAllToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.depositAllToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.allAutoResponsesOffToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.allAutoResponsesOnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.awayFromKeyboardToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.optionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.settingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gameDataToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.expCalculatorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.spellBookToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -245,11 +236,7 @@
             this.conversationToolStripMenuItem,
             this.onlinePlayersToolStripMenuItem,
             this.playerStatsToolStripMenuItem,
-            this.sessionStatsToolStripMenuItem,
-            this.timeAnalysisToolStripMenuItem,
-            this.expRateGraphToolStripMenuItem,
-            this.partyStatsToolStripMenuItem,
-            this.qToolsToolStripMenuItem});
+            this.partyStatsToolStripMenuItem});
             this.viewToolStripMenuItem.Name = "viewToolStripMenuItem";
             this.viewToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
             this.viewToolStripMenuItem.Text = "View";
@@ -275,26 +262,6 @@
             this.playerStatsToolStripMenuItem.Text = "Player Stats";
             this.playerStatsToolStripMenuItem.Click += new System.EventHandler(this.playerStatsToolStripMenuItem_Click);
             // 
-            // sessionStatsToolStripMenuItem
-            // 
-            this.sessionStatsToolStripMenuItem.Name = "sessionStatsToolStripMenuItem";
-            this.sessionStatsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.sessionStatsToolStripMenuItem.Text = "Session Stats";
-            this.sessionStatsToolStripMenuItem.Click += new System.EventHandler(this.sessionStatsToolStripMenuItem_Click);
-            // 
-            // timeAnalysisToolStripMenuItem
-            // 
-            this.timeAnalysisToolStripMenuItem.Name = "timeAnalysisToolStripMenuItem";
-            this.timeAnalysisToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.timeAnalysisToolStripMenuItem.Text = "Time Analysis";
-            this.timeAnalysisToolStripMenuItem.Click += new System.EventHandler(this.timeAnalysisToolStripMenuItem_Click);
-            // 
-            // expRateGraphToolStripMenuItem
-            // 
-            this.expRateGraphToolStripMenuItem.Name = "expRateGraphToolStripMenuItem";
-            this.expRateGraphToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
-            this.expRateGraphToolStripMenuItem.Text = "Exp/Rate Graph";
-            // 
             // partyStatsToolStripMenuItem
             // 
             this.partyStatsToolStripMenuItem.Name = "partyStatsToolStripMenuItem";
@@ -302,27 +269,17 @@
             this.partyStatsToolStripMenuItem.Text = "Party Stats";
             this.partyStatsToolStripMenuItem.Click += new System.EventHandler(this.partyStatsToolStripMenuItem_Click);
             // 
-            // qToolsToolStripMenuItem
-            // 
-            this.qToolsToolStripMenuItem.Name = "qToolsToolStripMenuItem";
-            this.qToolsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.qToolsToolStripMenuItem.Text = "Q-Tools";
-            this.qToolsToolStripMenuItem.Click += new System.EventHandler(this.qToolsToolStripMenuItem_Click);
-            // 
             // actionToolStripMenuItem
             // 
             this.actionToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.gotoToolStripMenuItem,
             this.loopToolStripMenuItem,
             this.roamToolStripMenuItem,
-            this.backTrackToolStripMenuItem,
             this.stopToolStripMenuItem,
             this.getAllToolStripMenuItem,
             this.dropAllToolStripMenuItem,
             this.equipAllToolStripMenuItem,
             this.depositAllToolStripMenuItem,
-            this.allAutoResponsesOffToolStripMenuItem,
-            this.allAutoResponsesOnToolStripMenuItem,
             this.awayFromKeyboardToolStripMenuItem});
             this.actionToolStripMenuItem.Name = "actionToolStripMenuItem";
             this.actionToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
@@ -345,12 +302,6 @@
             this.roamToolStripMenuItem.Name = "roamToolStripMenuItem";
             this.roamToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
             this.roamToolStripMenuItem.Text = "Roam";
-            // 
-            // backTrackToolStripMenuItem
-            // 
-            this.backTrackToolStripMenuItem.Name = "backTrackToolStripMenuItem";
-            this.backTrackToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
-            this.backTrackToolStripMenuItem.Text = "Back Track";
             // 
             // stopToolStripMenuItem
             // 
@@ -382,18 +333,6 @@
             this.depositAllToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
             this.depositAllToolStripMenuItem.Text = "Deposit All";
             // 
-            // allAutoResponsesOffToolStripMenuItem
-            // 
-            this.allAutoResponsesOffToolStripMenuItem.Name = "allAutoResponsesOffToolStripMenuItem";
-            this.allAutoResponsesOffToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
-            this.allAutoResponsesOffToolStripMenuItem.Text = "All Auto Responses Off";
-            // 
-            // allAutoResponsesOnToolStripMenuItem
-            // 
-            this.allAutoResponsesOnToolStripMenuItem.Name = "allAutoResponsesOnToolStripMenuItem";
-            this.allAutoResponsesOnToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
-            this.allAutoResponsesOnToolStripMenuItem.Text = "All Auto Responses On";
-            // 
             // awayFromKeyboardToolStripMenuItem
             // 
             this.awayFromKeyboardToolStripMenuItem.Name = "awayFromKeyboardToolStripMenuItem";
@@ -404,9 +343,7 @@
             // 
             this.optionsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.settingsToolStripMenuItem,
-            this.gameDataToolStripMenuItem,
-            this.expCalculatorToolStripMenuItem,
-            this.spellBookToolStripMenuItem});
+            this.gameDataToolStripMenuItem});
             this.optionsToolStripMenuItem.Name = "optionsToolStripMenuItem";
             this.optionsToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
             this.optionsToolStripMenuItem.Text = "Options";
@@ -423,20 +360,6 @@
             this.gameDataToolStripMenuItem.Name = "gameDataToolStripMenuItem";
             this.gameDataToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.gameDataToolStripMenuItem.Text = "game data";
-            // 
-            // expCalculatorToolStripMenuItem
-            // 
-            this.expCalculatorToolStripMenuItem.Name = "expCalculatorToolStripMenuItem";
-            this.expCalculatorToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.expCalculatorToolStripMenuItem.Text = "exp calculator";
-            this.expCalculatorToolStripMenuItem.Click += new System.EventHandler(this.expCalculatorToolStripMenuItem_Click);
-            // 
-            // spellBookToolStripMenuItem
-            // 
-            this.spellBookToolStripMenuItem.Name = "spellBookToolStripMenuItem";
-            this.spellBookToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.spellBookToolStripMenuItem.Text = "Spell Book";
-            this.spellBookToolStripMenuItem.Click += new System.EventHandler(this.spellBookToolStripMenuItem_Click);
             // 
             // helpToolStripMenuItem
             // 
@@ -638,28 +561,19 @@
         private System.Windows.Forms.ToolStripMenuItem conversationToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem onlinePlayersToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem playerStatsToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem sessionStatsToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem timeAnalysisToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem expRateGraphToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem partyStatsToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem qToolsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem actionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem gotoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem loopToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem roamToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem backTrackToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem stopToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem getAllToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem dropAllToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem equipAllToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem depositAllToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem allAutoResponsesOffToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem allAutoResponsesOnToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem awayFromKeyboardToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem optionsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem gameDataToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem expCalculatorToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem spellBookToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.ToolStripButton toolStripButton1;
