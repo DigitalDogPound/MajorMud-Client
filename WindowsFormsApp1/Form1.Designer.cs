@@ -73,7 +73,6 @@
             this.optionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.settingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gameDataToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.audioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.expCalculatorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.spellBookToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -398,7 +397,6 @@
             this.optionsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.settingsToolStripMenuItem,
             this.gameDataToolStripMenuItem,
-            this.audioToolStripMenuItem,
             this.expCalculatorToolStripMenuItem,
             this.spellBookToolStripMenuItem});
             this.optionsToolStripMenuItem.Name = "optionsToolStripMenuItem";
@@ -408,34 +406,26 @@
             // settingsToolStripMenuItem
             // 
             this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
-            this.settingsToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.settingsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.settingsToolStripMenuItem.Text = "settings";
             this.settingsToolStripMenuItem.Click += new System.EventHandler(this.settingsToolStripMenuItem_Click);
             // 
             // gameDataToolStripMenuItem
             // 
             this.gameDataToolStripMenuItem.Name = "gameDataToolStripMenuItem";
-            this.gameDataToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.gameDataToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.gameDataToolStripMenuItem.Text = "game data";
-            // 
-            // audioToolStripMenuItem
-            // 
-            this.audioToolStripMenuItem.Checked = true;
-            this.audioToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.audioToolStripMenuItem.Name = "audioToolStripMenuItem";
-            this.audioToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
-            this.audioToolStripMenuItem.Text = "audio";
             // 
             // expCalculatorToolStripMenuItem
             // 
             this.expCalculatorToolStripMenuItem.Name = "expCalculatorToolStripMenuItem";
-            this.expCalculatorToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.expCalculatorToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.expCalculatorToolStripMenuItem.Text = "exp calculator";
             // 
             // spellBookToolStripMenuItem
             // 
             this.spellBookToolStripMenuItem.Name = "spellBookToolStripMenuItem";
-            this.spellBookToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.spellBookToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.spellBookToolStripMenuItem.Text = "Spell Book";
             // 
             // helpToolStripMenuItem
@@ -657,7 +647,6 @@
         private System.Windows.Forms.ToolStripMenuItem awayFromKeyboardToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem optionsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem gameDataToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem audioToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem expCalculatorToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem spellBookToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
