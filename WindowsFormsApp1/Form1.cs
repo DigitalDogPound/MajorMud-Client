@@ -56,18 +56,12 @@ namespace WindowsFormsApp1
 
         private void expCalculatorToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            expcalc frm5 = new expcalc();
-            {
-                frm5.ShowDialog();
-            }
+           
         }
 
         private void spellBookToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            spellbook frm6 = new spellbook();
-            {
-                frm6.ShowDialog();
-            }
+           
         }
 
         private void onlinePlayersToolStripMenuItem_Click(object sender, EventArgs e)
@@ -88,18 +82,12 @@ namespace WindowsFormsApp1
 
         private void sessionStatsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            sessionstats frm9 = new sessionstats();
-            {
-                frm9.ShowDialog();
-            }
+           
         }
 
         private void timeAnalysisToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            timeanalysis frm10 = new timeanalysis();
-            {
-                frm10.ShowDialog();
-            }
+            
         }
 
         private void partyStatsToolStripMenuItem_Click(object sender, EventArgs e)
@@ -112,10 +100,7 @@ namespace WindowsFormsApp1
 
         private void qToolsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            quicktools frm12 = new quicktools();
-            {
-                frm12.ShowDialog();
-            }
+           
         }
 
         private void backScrollToolStripMenuItem_Click(object sender, EventArgs e)
@@ -123,6 +108,14 @@ namespace WindowsFormsApp1
             backscroll frm13 = new backscroll();
             {
                 frm13.ShowDialog();
+            }
+        }
+
+        private void toolStripButton2_Click(object sender, EventArgs e)
+        {
+            Goto frm14 = new Goto();
+            {
+                frm14.ShowDialog();
             }
         }
     }
