@@ -40,6 +40,8 @@
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.label15 = new System.Windows.Forms.Label();
+            this.panel5 = new System.Windows.Forms.Panel();
             this.label14 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label13 = new System.Windows.Forms.Label();
@@ -108,9 +110,37 @@
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.checkBox40 = new System.Windows.Forms.CheckBox();
+            this.checkBox41 = new System.Windows.Forms.CheckBox();
+            this.checkBox42 = new System.Windows.Forms.CheckBox();
+            this.checkBox43 = new System.Windows.Forms.CheckBox();
+            this.checkBox44 = new System.Windows.Forms.CheckBox();
+            this.checkBox45 = new System.Windows.Forms.CheckBox();
+            this.checkBox46 = new System.Windows.Forms.CheckBox();
+            this.checkBox47 = new System.Windows.Forms.CheckBox();
+            this.checkBox48 = new System.Windows.Forms.CheckBox();
+            this.checkBox49 = new System.Windows.Forms.CheckBox();
+            this.checkBox50 = new System.Windows.Forms.CheckBox();
             this.tabPage1.SuspendLayout();
+            this.panel5.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -239,6 +269,51 @@
             this.tabPage1.Text = "General";
             this.tabPage1.UseVisualStyleBackColor = true;
             this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(1041, 39);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(31, 13);
+            this.label15.TabIndex = 9;
+            this.label15.Text = "Party";
+            // 
+            // panel5
+            // 
+            this.panel5.Controls.Add(this.checkBox50);
+            this.panel5.Controls.Add(this.checkBox49);
+            this.panel5.Controls.Add(this.checkBox48);
+            this.panel5.Controls.Add(this.checkBox47);
+            this.panel5.Controls.Add(this.checkBox46);
+            this.panel5.Controls.Add(this.checkBox45);
+            this.panel5.Controls.Add(this.checkBox44);
+            this.panel5.Controls.Add(this.checkBox43);
+            this.panel5.Controls.Add(this.checkBox42);
+            this.panel5.Controls.Add(this.checkBox41);
+            this.panel5.Controls.Add(this.checkBox40);
+            this.panel5.Controls.Add(this.textBox14);
+            this.panel5.Controls.Add(this.textBox13);
+            this.panel5.Controls.Add(this.textBox12);
+            this.panel5.Controls.Add(this.textBox11);
+            this.panel5.Controls.Add(this.label24);
+            this.panel5.Controls.Add(this.label23);
+            this.panel5.Controls.Add(this.label22);
+            this.panel5.Controls.Add(this.label21);
+            this.panel5.Controls.Add(this.label20);
+            this.panel5.Controls.Add(this.textBox10);
+            this.panel5.Controls.Add(this.textBox9);
+            this.panel5.Controls.Add(this.label19);
+            this.panel5.Controls.Add(this.label18);
+            this.panel5.Controls.Add(this.label17);
+            this.panel5.Controls.Add(this.radioButton3);
+            this.panel5.Controls.Add(this.radioButton2);
+            this.panel5.Controls.Add(this.radioButton1);
+            this.panel5.Controls.Add(this.label16);
+            this.panel5.Location = new System.Drawing.Point(921, 57);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(276, 402);
+            this.panel5.TabIndex = 8;
             // 
             // label14
             // 
@@ -936,21 +1011,274 @@
             this.tabControl1.Size = new System.Drawing.Size(1211, 676);
             this.tabControl1.TabIndex = 1;
             // 
-            // panel5
+            // label16
             // 
-            this.panel5.Location = new System.Drawing.Point(921, 57);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(276, 436);
-            this.panel5.TabIndex = 8;
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(56, 4);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(60, 13);
+            this.label16.TabIndex = 0;
+            this.label16.Text = "Party Rank";
             // 
-            // label15
+            // radioButton1
             // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(1041, 39);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(31, 13);
-            this.label15.TabIndex = 9;
-            this.label15.Text = "Party";
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(4, 16);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(49, 17);
+            this.radioButton1.TabIndex = 1;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "Front";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Location = new System.Drawing.Point(60, 16);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(56, 17);
+            this.radioButton2.TabIndex = 2;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "Middle";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // radioButton3
+            // 
+            this.radioButton3.AutoSize = true;
+            this.radioButton3.Location = new System.Drawing.Point(120, 16);
+            this.radioButton3.Name = "radioButton3";
+            this.radioButton3.Size = new System.Drawing.Size(50, 17);
+            this.radioButton3.TabIndex = 3;
+            this.radioButton3.TabStop = true;
+            this.radioButton3.Text = "Back";
+            this.radioButton3.UseVisualStyleBackColor = true;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(56, 42);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(56, 13);
+            this.label17.TabIndex = 4;
+            this.label17.Text = "Party Heal";
+            this.label17.Click += new System.EventHandler(this.label17_Click);
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(4, 66);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(45, 13);
+            this.label18.TabIndex = 5;
+            this.label18.Text = "Minor at";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(3, 86);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(45, 13);
+            this.label19.TabIndex = 6;
+            this.label19.Text = "Major at";
+            // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(56, 62);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(34, 20);
+            this.textBox9.TabIndex = 7;
+            this.textBox9.Text = "%";
+            // 
+            // textBox10
+            // 
+            this.textBox10.Location = new System.Drawing.Point(56, 84);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(34, 20);
+            this.textBox10.TabIndex = 8;
+            this.textBox10.Text = "%";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(52, 114);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(59, 13);
+            this.label20.TabIndex = 9;
+            this.label20.Text = "Party Bless";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(7, 135);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(41, 13);
+            this.label21.TabIndex = 10;
+            this.label21.Text = "Bless 1";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(7, 156);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(41, 13);
+            this.label22.TabIndex = 11;
+            this.label22.Text = "Bless 2";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(7, 177);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(41, 13);
+            this.label23.TabIndex = 12;
+            this.label23.Text = "Bless 3";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(7, 199);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(41, 13);
+            this.label24.TabIndex = 13;
+            this.label24.Text = "Bless 4";
+            // 
+            // textBox11
+            // 
+            this.textBox11.Location = new System.Drawing.Point(55, 135);
+            this.textBox11.Name = "textBox11";
+            this.textBox11.Size = new System.Drawing.Size(100, 20);
+            this.textBox11.TabIndex = 14;
+            // 
+            // textBox12
+            // 
+            this.textBox12.Location = new System.Drawing.Point(55, 155);
+            this.textBox12.Name = "textBox12";
+            this.textBox12.Size = new System.Drawing.Size(100, 20);
+            this.textBox12.TabIndex = 15;
+            // 
+            // textBox13
+            // 
+            this.textBox13.Location = new System.Drawing.Point(55, 176);
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(100, 20);
+            this.textBox13.TabIndex = 16;
+            // 
+            // textBox14
+            // 
+            this.textBox14.Location = new System.Drawing.Point(55, 191);
+            this.textBox14.Name = "textBox14";
+            this.textBox14.Size = new System.Drawing.Size(100, 20);
+            this.textBox14.TabIndex = 17;
+            // 
+            // checkBox40
+            // 
+            this.checkBox40.AutoSize = true;
+            this.checkBox40.Location = new System.Drawing.Point(7, 216);
+            this.checkBox40.Name = "checkBox40";
+            this.checkBox40.Size = new System.Drawing.Size(113, 17);
+            this.checkBox40.TabIndex = 18;
+            this.checkBox40.Text = "Attack last in party";
+            this.checkBox40.UseVisualStyleBackColor = true;
+            // 
+            // checkBox41
+            // 
+            this.checkBox41.AutoSize = true;
+            this.checkBox41.Location = new System.Drawing.Point(7, 233);
+            this.checkBox41.Name = "checkBox41";
+            this.checkBox41.Size = new System.Drawing.Size(95, 17);
+            this.checkBox41.TabIndex = 19;
+            this.checkBox41.Text = "Share damage";
+            this.checkBox41.UseVisualStyleBackColor = true;
+            // 
+            // checkBox42
+            // 
+            this.checkBox42.AutoSize = true;
+            this.checkBox42.Location = new System.Drawing.Point(7, 249);
+            this.checkBox42.Name = "checkBox42";
+            this.checkBox42.Size = new System.Drawing.Size(124, 17);
+            this.checkBox42.TabIndex = 20;
+            this.checkBox42.Text = "Request party health";
+            this.checkBox42.UseVisualStyleBackColor = true;
+            // 
+            // checkBox43
+            // 
+            this.checkBox43.AutoSize = true;
+            this.checkBox43.Location = new System.Drawing.Point(7, 265);
+            this.checkBox43.Name = "checkBox43";
+            this.checkBox43.Size = new System.Drawing.Size(133, 17);
+            this.checkBox43.TabIndex = 21;
+            this.checkBox43.Text = "Attack in reverse order";
+            this.checkBox43.UseVisualStyleBackColor = true;
+            // 
+            // checkBox44
+            // 
+            this.checkBox44.AutoSize = true;
+            this.checkBox44.Location = new System.Drawing.Point(7, 281);
+            this.checkBox44.Name = "checkBox44";
+            this.checkBox44.Size = new System.Drawing.Size(140, 17);
+            this.checkBox44.TabIndex = 22;
+            this.checkBox44.Text = "Defend party when PVP";
+            this.checkBox44.UseVisualStyleBackColor = true;
+            // 
+            // checkBox45
+            // 
+            this.checkBox45.AutoSize = true;
+            this.checkBox45.Location = new System.Drawing.Point(7, 297);
+            this.checkBox45.Name = "checkBox45";
+            this.checkBox45.Size = new System.Drawing.Size(103, 17);
+            this.checkBox45.TabIndex = 23;
+            this.checkBox45.Text = "Auto share cash";
+            this.checkBox45.UseVisualStyleBackColor = true;
+            // 
+            // checkBox46
+            // 
+            this.checkBox46.AutoSize = true;
+            this.checkBox46.Location = new System.Drawing.Point(7, 313);
+            this.checkBox46.Name = "checkBox46";
+            this.checkBox46.Size = new System.Drawing.Size(135, 17);
+            this.checkBox46.TabIndex = 24;
+            this.checkBox46.Text = "Help leader bash doors";
+            this.checkBox46.UseVisualStyleBackColor = true;
+            // 
+            // checkBox47
+            // 
+            this.checkBox47.AutoSize = true;
+            this.checkBox47.Location = new System.Drawing.Point(7, 329);
+            this.checkBox47.Name = "checkBox47";
+            this.checkBox47.Size = new System.Drawing.Size(166, 17);
+            this.checkBox47.TabIndex = 25;
+            this.checkBox47.Text = "Ignore @party when following";
+            this.checkBox47.UseVisualStyleBackColor = true;
+            // 
+            // checkBox48
+            // 
+            this.checkBox48.AutoSize = true;
+            this.checkBox48.Location = new System.Drawing.Point(7, 345);
+            this.checkBox48.Name = "checkBox48";
+            this.checkBox48.Size = new System.Drawing.Size(155, 17);
+            this.checkBox48.TabIndex = 26;
+            this.checkBox48.Text = "Ignore @wait when leading";
+            this.checkBox48.UseVisualStyleBackColor = true;
+            // 
+            // checkBox49
+            // 
+            this.checkBox49.AutoSize = true;
+            this.checkBox49.Location = new System.Drawing.Point(7, 361);
+            this.checkBox49.Name = "checkBox49";
+            this.checkBox49.Size = new System.Drawing.Size(150, 17);
+            this.checkBox49.TabIndex = 27;
+            this.checkBox49.Text = "Say @panic when leading";
+            this.checkBox49.UseVisualStyleBackColor = true;
+            // 
+            // checkBox50
+            // 
+            this.checkBox50.AutoSize = true;
+            this.checkBox50.Location = new System.Drawing.Point(7, 376);
+            this.checkBox50.Name = "checkBox50";
+            this.checkBox50.Size = new System.Drawing.Size(169, 17);
+            this.checkBox50.TabIndex = 28;
+            this.checkBox50.Text = "Ignore @panic when following";
+            this.checkBox50.UseVisualStyleBackColor = true;
             // 
             // settings
             // 
@@ -966,6 +1294,8 @@
             this.Text = "Settings";
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.panel3.ResumeLayout(false);
@@ -1064,5 +1394,34 @@
         private System.Windows.Forms.CheckBox checkBox35;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.RadioButton radioButton3;
+        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.TextBox textBox14;
+        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.CheckBox checkBox50;
+        private System.Windows.Forms.CheckBox checkBox49;
+        private System.Windows.Forms.CheckBox checkBox48;
+        private System.Windows.Forms.CheckBox checkBox47;
+        private System.Windows.Forms.CheckBox checkBox46;
+        private System.Windows.Forms.CheckBox checkBox45;
+        private System.Windows.Forms.CheckBox checkBox44;
+        private System.Windows.Forms.CheckBox checkBox43;
+        private System.Windows.Forms.CheckBox checkBox42;
+        private System.Windows.Forms.CheckBox checkBox41;
+        private System.Windows.Forms.CheckBox checkBox40;
     }
 }
