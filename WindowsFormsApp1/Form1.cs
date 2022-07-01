@@ -118,10 +118,16 @@ namespace WindowsFormsApp1
                 frm14.ShowDialog();
             }
         }
-
+       
         private void toolStripButton8_Click(object sender, EventArgs e)
         {
            
+        }
+
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+         
+
         }
     }
 }

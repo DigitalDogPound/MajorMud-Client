@@ -102,11 +102,23 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="backscroll.resx">
+      <DependentUpon>backscroll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="conversations.resx">
+      <DependentUpon>conversations.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Goto.resx">
       <DependentUpon>Goto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="partystats.resx">
+      <DependentUpon>partystats.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="playerstats.resx">
+      <DependentUpon>playerstats.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="settings.resx">
       <DependentUpon>settings.cs</DependentUpon>
