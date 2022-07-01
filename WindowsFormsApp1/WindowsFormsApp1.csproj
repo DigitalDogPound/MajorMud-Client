@@ -114,6 +114,9 @@
     <EmbeddedResource Include="Goto.resx">
       <DependentUpon>Goto.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="onlineplayers.resx">
+      <DependentUpon>onlineplayers.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="partystats.resx">
       <DependentUpon>partystats.cs</DependentUpon>
     </EmbeddedResource>
