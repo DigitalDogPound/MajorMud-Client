@@ -207,6 +207,23 @@
             this.radioButton7 = new System.Windows.Forms.RadioButton();
             this.radioButton8 = new System.Windows.Forms.RadioButton();
             this.radioButton9 = new System.Windows.Forms.RadioButton();
+            this.panel12 = new System.Windows.Forms.Panel();
+            this.checkBox52 = new System.Windows.Forms.CheckBox();
+            this.checkBox53 = new System.Windows.Forms.CheckBox();
+            this.checkBox54 = new System.Windows.Forms.CheckBox();
+            this.checkBox55 = new System.Windows.Forms.CheckBox();
+            this.checkBox56 = new System.Windows.Forms.CheckBox();
+            this.checkBox57 = new System.Windows.Forms.CheckBox();
+            this.checkBox58 = new System.Windows.Forms.CheckBox();
+            this.checkBox59 = new System.Windows.Forms.CheckBox();
+            this.checkBox60 = new System.Windows.Forms.CheckBox();
+            this.checkBox61 = new System.Windows.Forms.CheckBox();
+            this.checkBox62 = new System.Windows.Forms.CheckBox();
+            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.label63 = new System.Windows.Forms.Label();
+            this.comboBox23 = new System.Windows.Forms.ComboBox();
+            this.label64 = new System.Windows.Forms.Label();
             this.tabPage8.SuspendLayout();
             this.panel6.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -221,6 +238,7 @@
             this.panel9.SuspendLayout();
             this.panel10.SuspendLayout();
             this.panel11.SuspendLayout();
+            this.panel12.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -262,6 +280,8 @@
             // 
             // tabPage8
             // 
+            this.tabPage8.Controls.Add(this.label64);
+            this.tabPage8.Controls.Add(this.panel12);
             this.tabPage8.Controls.Add(this.label62);
             this.tabPage8.Controls.Add(this.panel11);
             this.tabPage8.Controls.Add(this.panel10);
@@ -2017,6 +2037,178 @@
             this.radioButton9.Text = "Do nothing";
             this.radioButton9.UseVisualStyleBackColor = true;
             // 
+            // panel12
+            // 
+            this.panel12.Controls.Add(this.comboBox23);
+            this.panel12.Controls.Add(this.label63);
+            this.panel12.Controls.Add(this.textBox16);
+            this.panel12.Controls.Add(this.textBox15);
+            this.panel12.Controls.Add(this.checkBox62);
+            this.panel12.Controls.Add(this.checkBox61);
+            this.panel12.Controls.Add(this.checkBox60);
+            this.panel12.Controls.Add(this.checkBox59);
+            this.panel12.Controls.Add(this.checkBox58);
+            this.panel12.Controls.Add(this.checkBox57);
+            this.panel12.Controls.Add(this.checkBox56);
+            this.panel12.Controls.Add(this.checkBox55);
+            this.panel12.Controls.Add(this.checkBox54);
+            this.panel12.Controls.Add(this.checkBox53);
+            this.panel12.Controls.Add(this.checkBox52);
+            this.panel12.Location = new System.Drawing.Point(862, 23);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(336, 170);
+            this.panel12.TabIndex = 12;
+            // 
+            // checkBox52
+            // 
+            this.checkBox52.AutoSize = true;
+            this.checkBox52.Location = new System.Drawing.Point(4, 4);
+            this.checkBox52.Name = "checkBox52";
+            this.checkBox52.Size = new System.Drawing.Size(95, 17);
+            this.checkBox52.TabIndex = 0;
+            this.checkBox52.Text = "Collect Copper";
+            this.checkBox52.UseVisualStyleBackColor = true;
+            // 
+            // checkBox53
+            // 
+            this.checkBox53.AutoSize = true;
+            this.checkBox53.Location = new System.Drawing.Point(4, 23);
+            this.checkBox53.Name = "checkBox53";
+            this.checkBox53.Size = new System.Drawing.Size(93, 17);
+            this.checkBox53.TabIndex = 1;
+            this.checkBox53.Text = "Colleect Silver";
+            this.checkBox53.UseVisualStyleBackColor = true;
+            // 
+            // checkBox54
+            // 
+            this.checkBox54.AutoSize = true;
+            this.checkBox54.Location = new System.Drawing.Point(4, 41);
+            this.checkBox54.Name = "checkBox54";
+            this.checkBox54.Size = new System.Drawing.Size(83, 17);
+            this.checkBox54.TabIndex = 2;
+            this.checkBox54.Text = "Collect Gold";
+            this.checkBox54.UseVisualStyleBackColor = true;
+            // 
+            // checkBox55
+            // 
+            this.checkBox55.AutoSize = true;
+            this.checkBox55.Location = new System.Drawing.Point(4, 61);
+            this.checkBox55.Name = "checkBox55";
+            this.checkBox55.Size = new System.Drawing.Size(101, 17);
+            this.checkBox55.TabIndex = 3;
+            this.checkBox55.Text = "Collect Platinum";
+            this.checkBox55.UseVisualStyleBackColor = true;
+            // 
+            // checkBox56
+            // 
+            this.checkBox56.AutoSize = true;
+            this.checkBox56.Location = new System.Drawing.Point(4, 81);
+            this.checkBox56.Name = "checkBox56";
+            this.checkBox56.Size = new System.Drawing.Size(89, 17);
+            this.checkBox56.TabIndex = 4;
+            this.checkBox56.Text = "Collect Runic";
+            this.checkBox56.UseVisualStyleBackColor = true;
+            // 
+            // checkBox57
+            // 
+            this.checkBox57.AutoSize = true;
+            this.checkBox57.Location = new System.Drawing.Point(4, 102);
+            this.checkBox57.Name = "checkBox57";
+            this.checkBox57.Size = new System.Drawing.Size(199, 17);
+            this.checkBox57.TabIndex = 5;
+            this.checkBox57.Text = "Don\'t collect if it will make you heavy";
+            this.checkBox57.UseVisualStyleBackColor = true;
+            // 
+            // checkBox58
+            // 
+            this.checkBox58.AutoSize = true;
+            this.checkBox58.Location = new System.Drawing.Point(4, 120);
+            this.checkBox58.Name = "checkBox58";
+            this.checkBox58.Size = new System.Drawing.Size(206, 17);
+            this.checkBox58.TabIndex = 6;
+            this.checkBox58.Text = "Don\'t collect if it will make you medium";
+            this.checkBox58.UseVisualStyleBackColor = true;
+            // 
+            // checkBox59
+            // 
+            this.checkBox59.AutoSize = true;
+            this.checkBox59.Location = new System.Drawing.Point(4, 137);
+            this.checkBox59.Name = "checkBox59";
+            this.checkBox59.Size = new System.Drawing.Size(159, 17);
+            this.checkBox59.TabIndex = 7;
+            this.checkBox59.Text = "Collect after combat finished";
+            this.checkBox59.UseVisualStyleBackColor = true;
+            // 
+            // checkBox60
+            // 
+            this.checkBox60.AutoSize = true;
+            this.checkBox60.Location = new System.Drawing.Point(101, 6);
+            this.checkBox60.Name = "checkBox60";
+            this.checkBox60.Size = new System.Drawing.Size(187, 17);
+            this.checkBox60.TabIndex = 8;
+            this.checkBox60.Text = "Dopr smaller currency to get larger";
+            this.checkBox60.UseVisualStyleBackColor = true;
+            // 
+            // checkBox61
+            // 
+            this.checkBox61.AutoSize = true;
+            this.checkBox61.Location = new System.Drawing.Point(101, 34);
+            this.checkBox61.Name = "checkBox61";
+            this.checkBox61.Size = new System.Drawing.Size(170, 17);
+            this.checkBox61.TabIndex = 9;
+            this.checkBox61.Text = "Auto deposit if wealth exceeds";
+            this.checkBox61.UseVisualStyleBackColor = true;
+            // 
+            // checkBox62
+            // 
+            this.checkBox62.AutoSize = true;
+            this.checkBox62.Location = new System.Drawing.Point(101, 60);
+            this.checkBox62.Name = "checkBox62";
+            this.checkBox62.Size = new System.Drawing.Size(159, 17);
+            this.checkBox62.TabIndex = 10;
+            this.checkBox62.Text = "Auto deposit if coins exceed";
+            this.checkBox62.UseVisualStyleBackColor = true;
+            // 
+            // textBox15
+            // 
+            this.textBox15.Location = new System.Drawing.Point(272, 32);
+            this.textBox15.Name = "textBox15";
+            this.textBox15.Size = new System.Drawing.Size(38, 20);
+            this.textBox15.TabIndex = 11;
+            // 
+            // textBox16
+            // 
+            this.textBox16.Location = new System.Drawing.Point(273, 58);
+            this.textBox16.Name = "textBox16";
+            this.textBox16.Size = new System.Drawing.Size(38, 20);
+            this.textBox16.TabIndex = 12;
+            // 
+            // label63
+            // 
+            this.label63.AutoSize = true;
+            this.label63.Location = new System.Drawing.Point(135, 87);
+            this.label63.Name = "label63";
+            this.label63.Size = new System.Drawing.Size(85, 13);
+            this.label63.TabIndex = 13;
+            this.label63.Text = "Banking done at";
+            // 
+            // comboBox23
+            // 
+            this.comboBox23.FormattingEnabled = true;
+            this.comboBox23.Location = new System.Drawing.Point(228, 83);
+            this.comboBox23.Name = "comboBox23";
+            this.comboBox23.Size = new System.Drawing.Size(86, 21);
+            this.comboBox23.TabIndex = 14;
+            // 
+            // label64
+            // 
+            this.label64.AutoSize = true;
+            this.label64.Location = new System.Drawing.Point(1021, 7);
+            this.label64.Name = "label64";
+            this.label64.Size = new System.Drawing.Size(31, 13);
+            this.label64.TabIndex = 13;
+            this.label64.Text = "Cash";
+            // 
             // settings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2056,6 +2248,8 @@
             this.panel10.PerformLayout();
             this.panel11.ResumeLayout(false);
             this.panel11.PerformLayout();
+            this.panel12.ResumeLayout(false);
+            this.panel12.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2242,5 +2436,22 @@
         private System.Windows.Forms.Label label51;
         private System.Windows.Forms.Label label50;
         private System.Windows.Forms.Label label49;
+        private System.Windows.Forms.Label label64;
+        private System.Windows.Forms.Panel panel12;
+        private System.Windows.Forms.ComboBox comboBox23;
+        private System.Windows.Forms.Label label63;
+        private System.Windows.Forms.TextBox textBox16;
+        private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.CheckBox checkBox62;
+        private System.Windows.Forms.CheckBox checkBox61;
+        private System.Windows.Forms.CheckBox checkBox60;
+        private System.Windows.Forms.CheckBox checkBox59;
+        private System.Windows.Forms.CheckBox checkBox58;
+        private System.Windows.Forms.CheckBox checkBox57;
+        private System.Windows.Forms.CheckBox checkBox56;
+        private System.Windows.Forms.CheckBox checkBox55;
+        private System.Windows.Forms.CheckBox checkBox54;
+        private System.Windows.Forms.CheckBox checkBox53;
+        private System.Windows.Forms.CheckBox checkBox52;
     }
 }
