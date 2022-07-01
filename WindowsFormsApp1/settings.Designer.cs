@@ -32,8 +32,6 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.tabPage13 = new System.Windows.Forms.TabPage();
-            this.tabPage12 = new System.Windows.Forms.TabPage();
-            this.tabPage10 = new System.Windows.Forms.TabPage();
             this.tabPage8 = new System.Windows.Forms.TabPage();
             this.label25 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
@@ -47,7 +45,6 @@
             this.label27 = new System.Windows.Forms.Label();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.label26 = new System.Windows.Forms.Label();
-            this.tabPage7 = new System.Windows.Forms.TabPage();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
@@ -184,6 +181,32 @@
             this.label45 = new System.Windows.Forms.Label();
             this.label46 = new System.Windows.Forms.Label();
             this.label47 = new System.Windows.Forms.Label();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.label48 = new System.Windows.Forms.Label();
+            this.label49 = new System.Windows.Forms.Label();
+            this.label50 = new System.Windows.Forms.Label();
+            this.label51 = new System.Windows.Forms.Label();
+            this.label52 = new System.Windows.Forms.Label();
+            this.label53 = new System.Windows.Forms.Label();
+            this.label54 = new System.Windows.Forms.Label();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.label55 = new System.Windows.Forms.Label();
+            this.label56 = new System.Windows.Forms.Label();
+            this.label57 = new System.Windows.Forms.Label();
+            this.label58 = new System.Windows.Forms.Label();
+            this.label59 = new System.Windows.Forms.Label();
+            this.label60 = new System.Windows.Forms.Label();
+            this.label61 = new System.Windows.Forms.Label();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.checkBox51 = new System.Windows.Forms.CheckBox();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.label62 = new System.Windows.Forms.Label();
+            this.radioButton4 = new System.Windows.Forms.RadioButton();
+            this.radioButton5 = new System.Windows.Forms.RadioButton();
+            this.radioButton6 = new System.Windows.Forms.RadioButton();
+            this.radioButton7 = new System.Windows.Forms.RadioButton();
+            this.radioButton8 = new System.Windows.Forms.RadioButton();
+            this.radioButton9 = new System.Windows.Forms.RadioButton();
             this.tabPage8.SuspendLayout();
             this.panel6.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -194,6 +217,10 @@
             this.panel1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.panel7.SuspendLayout();
+            this.panel8.SuspendLayout();
+            this.panel9.SuspendLayout();
+            this.panel10.SuspendLayout();
+            this.panel11.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -233,26 +260,15 @@
             this.tabPage13.Text = "Sounds";
             this.tabPage13.UseVisualStyleBackColor = true;
             // 
-            // tabPage12
-            // 
-            this.tabPage12.Location = new System.Drawing.Point(4, 22);
-            this.tabPage12.Name = "tabPage12";
-            this.tabPage12.Size = new System.Drawing.Size(1203, 650);
-            this.tabPage12.TabIndex = 11;
-            this.tabPage12.Text = "Cash";
-            this.tabPage12.UseVisualStyleBackColor = true;
-            // 
-            // tabPage10
-            // 
-            this.tabPage10.Location = new System.Drawing.Point(4, 22);
-            this.tabPage10.Name = "tabPage10";
-            this.tabPage10.Size = new System.Drawing.Size(1203, 650);
-            this.tabPage10.TabIndex = 9;
-            this.tabPage10.Text = "PVP";
-            this.tabPage10.UseVisualStyleBackColor = true;
-            // 
             // tabPage8
             // 
+            this.tabPage8.Controls.Add(this.label62);
+            this.tabPage8.Controls.Add(this.panel11);
+            this.tabPage8.Controls.Add(this.panel10);
+            this.tabPage8.Controls.Add(this.label55);
+            this.tabPage8.Controls.Add(this.panel9);
+            this.tabPage8.Controls.Add(this.label48);
+            this.tabPage8.Controls.Add(this.panel8);
             this.tabPage8.Controls.Add(this.label47);
             this.tabPage8.Controls.Add(this.panel7);
             this.tabPage8.Controls.Add(this.label36);
@@ -262,7 +278,7 @@
             this.tabPage8.Name = "tabPage8";
             this.tabPage8.Size = new System.Drawing.Size(1203, 650);
             this.tabPage8.TabIndex = 7;
-            this.tabPage8.Text = "Spells";
+            this.tabPage8.Text = "Health/Spells/PVP/Cash";
             this.tabPage8.UseVisualStyleBackColor = true;
             // 
             // label25
@@ -386,15 +402,6 @@
             this.label26.Size = new System.Drawing.Size(54, 13);
             this.label26.TabIndex = 0;
             this.label26.Text = "Heal HP\'s";
-            // 
-            // tabPage7
-            // 
-            this.tabPage7.Location = new System.Drawing.Point(4, 22);
-            this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Size = new System.Drawing.Size(1203, 650);
-            this.tabPage7.TabIndex = 6;
-            this.tabPage7.Text = "Health";
-            this.tabPage7.UseVisualStyleBackColor = true;
             // 
             // tabPage6
             // 
@@ -1444,10 +1451,7 @@
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage5);
             this.tabControl1.Controls.Add(this.tabPage6);
-            this.tabControl1.Controls.Add(this.tabPage7);
             this.tabControl1.Controls.Add(this.tabPage8);
-            this.tabControl1.Controls.Add(this.tabPage10);
-            this.tabControl1.Controls.Add(this.tabPage12);
             this.tabControl1.Controls.Add(this.tabPage13);
             this.tabControl1.Location = new System.Drawing.Point(0, 27);
             this.tabControl1.Name = "tabControl1";
@@ -1755,14 +1759,272 @@
             this.label47.TabIndex = 4;
             this.label47.Text = "Bless Spells";
             // 
+            // panel8
+            // 
+            this.panel8.Controls.Add(this.label54);
+            this.panel8.Controls.Add(this.label53);
+            this.panel8.Controls.Add(this.label52);
+            this.panel8.Controls.Add(this.label51);
+            this.panel8.Controls.Add(this.label50);
+            this.panel8.Controls.Add(this.label49);
+            this.panel8.Location = new System.Drawing.Point(491, 21);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(209, 172);
+            this.panel8.TabIndex = 5;
+            // 
+            // label48
+            // 
+            this.label48.AutoSize = true;
+            this.label48.Location = new System.Drawing.Point(554, 5);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(69, 13);
+            this.label48.TabIndex = 6;
+            this.label48.Text = "Health (HP\'s)";
+            // 
+            // label49
+            // 
+            this.label49.AutoSize = true;
+            this.label49.Location = new System.Drawing.Point(3, 5);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(52, 13);
+            this.label49.TabIndex = 0;
+            this.label49.Text = "Rest Max";
+            // 
+            // label50
+            // 
+            this.label50.AutoSize = true;
+            this.label50.Location = new System.Drawing.Point(3, 36);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(68, 13);
+            this.label50.TabIndex = 1;
+            this.label50.Text = "Rest if below";
+            // 
+            // label51
+            // 
+            this.label51.AutoSize = true;
+            this.label51.Location = new System.Drawing.Point(2, 64);
+            this.label51.Name = "label51";
+            this.label51.Size = new System.Drawing.Size(52, 13);
+            this.label51.TabIndex = 2;
+            this.label51.Text = "Heal(rest)";
+            // 
+            // label52
+            // 
+            this.label52.AutoSize = true;
+            this.label52.Location = new System.Drawing.Point(4, 92);
+            this.label52.Name = "label52";
+            this.label52.Size = new System.Drawing.Size(70, 13);
+            this.label52.TabIndex = 3;
+            this.label52.Text = "Heal(combat)";
+            // 
+            // label53
+            // 
+            this.label53.AutoSize = true;
+            this.label53.Location = new System.Drawing.Point(4, 120);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(66, 13);
+            this.label53.TabIndex = 4;
+            this.label53.Text = "Run if below";
+            // 
+            // label54
+            // 
+            this.label54.AutoSize = true;
+            this.label54.Location = new System.Drawing.Point(3, 144);
+            this.label54.Name = "label54";
+            this.label54.Size = new System.Drawing.Size(84, 13);
+            this.label54.TabIndex = 5;
+            this.label54.Text = "Hangup if below";
+            // 
+            // panel9
+            // 
+            this.panel9.Controls.Add(this.label56);
+            this.panel9.Controls.Add(this.label57);
+            this.panel9.Controls.Add(this.label58);
+            this.panel9.Controls.Add(this.label59);
+            this.panel9.Controls.Add(this.label60);
+            this.panel9.Controls.Add(this.label61);
+            this.panel9.Location = new System.Drawing.Point(491, 218);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(209, 172);
+            this.panel9.TabIndex = 7;
+            // 
+            // label55
+            // 
+            this.label55.AutoSize = true;
+            this.label55.Location = new System.Drawing.Point(559, 201);
+            this.label55.Name = "label55";
+            this.label55.Size = new System.Drawing.Size(55, 13);
+            this.label55.TabIndex = 8;
+            this.label55.Text = "Mana(Kai)";
+            // 
+            // label56
+            // 
+            this.label56.AutoSize = true;
+            this.label56.Location = new System.Drawing.Point(3, 149);
+            this.label56.Name = "label56";
+            this.label56.Size = new System.Drawing.Size(73, 13);
+            this.label56.TabIndex = 11;
+            this.label56.Text = "Bless if above";
+            // 
+            // label57
+            // 
+            this.label57.AutoSize = true;
+            this.label57.Location = new System.Drawing.Point(4, 125);
+            this.label57.Name = "label57";
+            this.label57.Size = new System.Drawing.Size(66, 13);
+            this.label57.TabIndex = 10;
+            this.label57.Text = "Run if below";
+            // 
+            // label58
+            // 
+            this.label58.AutoSize = true;
+            this.label58.Location = new System.Drawing.Point(4, 97);
+            this.label58.Name = "label58";
+            this.label58.Size = new System.Drawing.Size(70, 13);
+            this.label58.TabIndex = 9;
+            this.label58.Text = "Heal(combat)";
+            // 
+            // label59
+            // 
+            this.label59.AutoSize = true;
+            this.label59.Location = new System.Drawing.Point(2, 69);
+            this.label59.Name = "label59";
+            this.label59.Size = new System.Drawing.Size(52, 13);
+            this.label59.TabIndex = 8;
+            this.label59.Text = "Heal(rest)";
+            // 
+            // label60
+            // 
+            this.label60.AutoSize = true;
+            this.label60.Location = new System.Drawing.Point(3, 41);
+            this.label60.Name = "label60";
+            this.label60.Size = new System.Drawing.Size(68, 13);
+            this.label60.TabIndex = 7;
+            this.label60.Text = "Rest if below";
+            // 
+            // label61
+            // 
+            this.label61.AutoSize = true;
+            this.label61.Location = new System.Drawing.Point(3, 10);
+            this.label61.Name = "label61";
+            this.label61.Size = new System.Drawing.Size(52, 13);
+            this.label61.TabIndex = 6;
+            this.label61.Text = "Rest Max";
+            // 
+            // panel10
+            // 
+            this.panel10.Controls.Add(this.checkBox51);
+            this.panel10.Location = new System.Drawing.Point(491, 397);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(209, 44);
+            this.panel10.TabIndex = 9;
+            // 
+            // checkBox51
+            // 
+            this.checkBox51.AutoSize = true;
+            this.checkBox51.Location = new System.Drawing.Point(2, 2);
+            this.checkBox51.Name = "checkBox51";
+            this.checkBox51.Size = new System.Drawing.Size(117, 17);
+            this.checkBox51.TabIndex = 1;
+            this.checkBox51.Text = "Use meditate ability";
+            this.checkBox51.UseVisualStyleBackColor = true;
+            // 
+            // panel11
+            // 
+            this.panel11.Controls.Add(this.radioButton9);
+            this.panel11.Controls.Add(this.radioButton8);
+            this.panel11.Controls.Add(this.radioButton7);
+            this.panel11.Controls.Add(this.radioButton6);
+            this.panel11.Controls.Add(this.radioButton5);
+            this.panel11.Controls.Add(this.radioButton4);
+            this.panel11.Location = new System.Drawing.Point(707, 21);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(148, 172);
+            this.panel11.TabIndex = 10;
+            // 
+            // label62
+            // 
+            this.label62.AutoSize = true;
+            this.label62.Location = new System.Drawing.Point(756, 5);
+            this.label62.Name = "label62";
+            this.label62.Size = new System.Drawing.Size(28, 13);
+            this.label62.TabIndex = 11;
+            this.label62.Text = "PVP";
+            // 
+            // radioButton4
+            // 
+            this.radioButton4.AutoSize = true;
+            this.radioButton4.Location = new System.Drawing.Point(4, 6);
+            this.radioButton4.Name = "radioButton4";
+            this.radioButton4.Size = new System.Drawing.Size(121, 17);
+            this.radioButton4.TabIndex = 0;
+            this.radioButton4.TabStop = true;
+            this.radioButton4.Text = "Hangup Immediately";
+            this.radioButton4.UseVisualStyleBackColor = true;
+            // 
+            // radioButton5
+            // 
+            this.radioButton5.AutoSize = true;
+            this.radioButton5.Location = new System.Drawing.Point(4, 25);
+            this.radioButton5.Name = "radioButton5";
+            this.radioButton5.Size = new System.Drawing.Size(108, 17);
+            this.radioButton5.TabIndex = 1;
+            this.radioButton5.TabStop = true;
+            this.radioButton5.Text = "Flee then hangup";
+            this.radioButton5.UseVisualStyleBackColor = true;
+            // 
+            // radioButton6
+            // 
+            this.radioButton6.AutoSize = true;
+            this.radioButton6.Location = new System.Drawing.Point(4, 44);
+            this.radioButton6.Name = "radioButton6";
+            this.radioButton6.Size = new System.Drawing.Size(127, 17);
+            this.radioButton6.TabIndex = 2;
+            this.radioButton6.TabStop = true;
+            this.radioButton6.Text = "Flee(come back later)";
+            this.radioButton6.UseVisualStyleBackColor = true;
+            // 
+            // radioButton7
+            // 
+            this.radioButton7.AutoSize = true;
+            this.radioButton7.Location = new System.Drawing.Point(4, 63);
+            this.radioButton7.Name = "radioButton7";
+            this.radioButton7.Size = new System.Drawing.Size(56, 17);
+            this.radioButton7.TabIndex = 3;
+            this.radioButton7.TabStop = true;
+            this.radioButton7.Text = "Attack";
+            this.radioButton7.UseVisualStyleBackColor = true;
+            // 
+            // radioButton8
+            // 
+            this.radioButton8.AutoSize = true;
+            this.radioButton8.Location = new System.Drawing.Point(3, 81);
+            this.radioButton8.Name = "radioButton8";
+            this.radioButton8.Size = new System.Drawing.Size(109, 17);
+            this.radioButton8.TabIndex = 4;
+            this.radioButton8.TabStop = true;
+            this.radioButton8.Text = "Chase and attack";
+            this.radioButton8.UseVisualStyleBackColor = true;
+            // 
+            // radioButton9
+            // 
+            this.radioButton9.AutoSize = true;
+            this.radioButton9.Location = new System.Drawing.Point(4, 99);
+            this.radioButton9.Name = "radioButton9";
+            this.radioButton9.Size = new System.Drawing.Size(77, 17);
+            this.radioButton9.TabIndex = 5;
+            this.radioButton9.TabStop = true;
+            this.radioButton9.Text = "Do nothing";
+            this.radioButton9.UseVisualStyleBackColor = true;
+            // 
             // settings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1255, 732);
+            this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "settings";
@@ -1786,6 +2048,14 @@
             this.tabControl1.ResumeLayout(false);
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
+            this.panel8.ResumeLayout(false);
+            this.panel8.PerformLayout();
+            this.panel9.ResumeLayout(false);
+            this.panel9.PerformLayout();
+            this.panel10.ResumeLayout(false);
+            this.panel10.PerformLayout();
+            this.panel11.ResumeLayout(false);
+            this.panel11.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1797,10 +2067,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.TabPage tabPage13;
-        private System.Windows.Forms.TabPage tabPage12;
-        private System.Windows.Forms.TabPage tabPage10;
         private System.Windows.Forms.TabPage tabPage8;
-        private System.Windows.Forms.TabPage tabPage7;
         private System.Windows.Forms.TabPage tabPage6;
         private System.Windows.Forms.TabPage tabPage5;
         private System.Windows.Forms.TabPage tabPage2;
@@ -1949,5 +2216,31 @@
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.Label label31;
         private System.Windows.Forms.Label label47;
+        private System.Windows.Forms.Label label62;
+        private System.Windows.Forms.Panel panel11;
+        private System.Windows.Forms.RadioButton radioButton9;
+        private System.Windows.Forms.RadioButton radioButton8;
+        private System.Windows.Forms.RadioButton radioButton7;
+        private System.Windows.Forms.RadioButton radioButton6;
+        private System.Windows.Forms.RadioButton radioButton5;
+        private System.Windows.Forms.RadioButton radioButton4;
+        private System.Windows.Forms.Panel panel10;
+        private System.Windows.Forms.CheckBox checkBox51;
+        private System.Windows.Forms.Label label55;
+        private System.Windows.Forms.Panel panel9;
+        private System.Windows.Forms.Label label56;
+        private System.Windows.Forms.Label label57;
+        private System.Windows.Forms.Label label58;
+        private System.Windows.Forms.Label label59;
+        private System.Windows.Forms.Label label60;
+        private System.Windows.Forms.Label label61;
+        private System.Windows.Forms.Label label48;
+        private System.Windows.Forms.Panel panel8;
+        private System.Windows.Forms.Label label54;
+        private System.Windows.Forms.Label label53;
+        private System.Windows.Forms.Label label52;
+        private System.Windows.Forms.Label label51;
+        private System.Windows.Forms.Label label50;
+        private System.Windows.Forms.Label label49;
     }
 }
