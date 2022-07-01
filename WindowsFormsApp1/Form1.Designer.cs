@@ -187,7 +187,7 @@
             // backScrollToolStripMenuItem
             // 
             this.backScrollToolStripMenuItem.Name = "backScrollToolStripMenuItem";
-            this.backScrollToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.backScrollToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.backScrollToolStripMenuItem.Text = "Back Scroll";
             this.backScrollToolStripMenuItem.Click += new System.EventHandler(this.backScrollToolStripMenuItem_Click);
             // 
@@ -243,28 +243,28 @@
             // conversationToolStripMenuItem
             // 
             this.conversationToolStripMenuItem.Name = "conversationToolStripMenuItem";
-            this.conversationToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.conversationToolStripMenuItem.Size = new System.Drawing.Size(149, 22);
             this.conversationToolStripMenuItem.Text = "Conversation";
             this.conversationToolStripMenuItem.Click += new System.EventHandler(this.conversationToolStripMenuItem_Click);
             // 
             // onlinePlayersToolStripMenuItem
             // 
             this.onlinePlayersToolStripMenuItem.Name = "onlinePlayersToolStripMenuItem";
-            this.onlinePlayersToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.onlinePlayersToolStripMenuItem.Size = new System.Drawing.Size(149, 22);
             this.onlinePlayersToolStripMenuItem.Text = "Online Players";
             this.onlinePlayersToolStripMenuItem.Click += new System.EventHandler(this.onlinePlayersToolStripMenuItem_Click);
             // 
             // playerStatsToolStripMenuItem
             // 
             this.playerStatsToolStripMenuItem.Name = "playerStatsToolStripMenuItem";
-            this.playerStatsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.playerStatsToolStripMenuItem.Size = new System.Drawing.Size(149, 22);
             this.playerStatsToolStripMenuItem.Text = "Player Stats";
             this.playerStatsToolStripMenuItem.Click += new System.EventHandler(this.playerStatsToolStripMenuItem_Click);
             // 
             // partyStatsToolStripMenuItem
             // 
             this.partyStatsToolStripMenuItem.Name = "partyStatsToolStripMenuItem";
-            this.partyStatsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.partyStatsToolStripMenuItem.Size = new System.Drawing.Size(149, 22);
             this.partyStatsToolStripMenuItem.Text = "Party Stats";
             this.partyStatsToolStripMenuItem.Click += new System.EventHandler(this.partyStatsToolStripMenuItem_Click);
             // 
@@ -287,55 +287,55 @@
             // gotoToolStripMenuItem
             // 
             this.gotoToolStripMenuItem.Name = "gotoToolStripMenuItem";
-            this.gotoToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
+            this.gotoToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
             this.gotoToolStripMenuItem.Text = "Goto";
             // 
             // loopToolStripMenuItem
             // 
             this.loopToolStripMenuItem.Name = "loopToolStripMenuItem";
-            this.loopToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
+            this.loopToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
             this.loopToolStripMenuItem.Text = "Loop";
             // 
             // roamToolStripMenuItem
             // 
             this.roamToolStripMenuItem.Name = "roamToolStripMenuItem";
-            this.roamToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
+            this.roamToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
             this.roamToolStripMenuItem.Text = "Roam";
             // 
             // stopToolStripMenuItem
             // 
             this.stopToolStripMenuItem.Name = "stopToolStripMenuItem";
-            this.stopToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
+            this.stopToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
             this.stopToolStripMenuItem.Text = "Stop";
             // 
             // getAllToolStripMenuItem
             // 
             this.getAllToolStripMenuItem.Name = "getAllToolStripMenuItem";
-            this.getAllToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
+            this.getAllToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
             this.getAllToolStripMenuItem.Text = "Get All";
             // 
             // dropAllToolStripMenuItem
             // 
             this.dropAllToolStripMenuItem.Name = "dropAllToolStripMenuItem";
-            this.dropAllToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
+            this.dropAllToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
             this.dropAllToolStripMenuItem.Text = "Drop All";
             // 
             // equipAllToolStripMenuItem
             // 
             this.equipAllToolStripMenuItem.Name = "equipAllToolStripMenuItem";
-            this.equipAllToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
+            this.equipAllToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
             this.equipAllToolStripMenuItem.Text = "Equip All";
             // 
             // depositAllToolStripMenuItem
             // 
             this.depositAllToolStripMenuItem.Name = "depositAllToolStripMenuItem";
-            this.depositAllToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
+            this.depositAllToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
             this.depositAllToolStripMenuItem.Text = "Deposit All";
             // 
             // awayFromKeyboardToolStripMenuItem
             // 
             this.awayFromKeyboardToolStripMenuItem.Name = "awayFromKeyboardToolStripMenuItem";
-            this.awayFromKeyboardToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
+            this.awayFromKeyboardToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
             this.awayFromKeyboardToolStripMenuItem.Text = "Away From Keyboard";
             // 
             // optionsToolStripMenuItem
@@ -350,14 +350,14 @@
             // settingsToolStripMenuItem
             // 
             this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
-            this.settingsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.settingsToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.settingsToolStripMenuItem.Text = "settings";
             this.settingsToolStripMenuItem.Click += new System.EventHandler(this.settingsToolStripMenuItem_Click);
             // 
             // gameDataToolStripMenuItem
             // 
             this.gameDataToolStripMenuItem.Name = "gameDataToolStripMenuItem";
-            this.gameDataToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.gameDataToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.gameDataToolStripMenuItem.Text = "game data";
             // 
             // helpToolStripMenuItem
@@ -377,16 +377,18 @@
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(12, 91);
+            this.panel1.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.panel1.Location = new System.Drawing.Point(8, 50);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1288, 672);
+            this.panel1.Size = new System.Drawing.Size(1350, 669);
             this.panel1.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(447, 39);
+            this.label1.Location = new System.Drawing.Point(595, 100);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(79, 13);
             this.label1.TabIndex = 0;
@@ -481,6 +483,7 @@
             this.toolStripButton8.Name = "toolStripButton8";
             this.toolStripButton8.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton8.Text = "autoget";
+            this.toolStripButton8.Click += new System.EventHandler(this.toolStripButton8_Click);
             // 
             // toolStripButton9
             // 
